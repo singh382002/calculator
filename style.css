@@ -1,0 +1,72 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+
+  font-family: 'Roboto', sans-serif; 
+  background-color: black;
+}
+
+.wrapper{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+
+}
+.heading-center{
+  margin-left: 200px;
+  margin-top: 230px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  box-shadow: 20px;
+ }
+
+
+.button{
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  box-shadow: -7px -8px 16px rgba(255, 255, 255, 0.1);
+  cursor : pointer;
+
+}
+
+
+.calulate_row{
+  margin: 8px 0;
+}
+.calulate_row input{
+  width: 305px;
+  
+  
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.highlight
+  {
+     background: orange
+    
+   
+  }
+  .highlight_calculator{
+
+    background-color: rgb(14, 63, 14);
+  }
+ 
